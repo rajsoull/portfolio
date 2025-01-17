@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio website</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }   
+
+     body{
+        background-color: rgb(0,0,33);
+        color: white;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       background-color: rgb(18,18,62);
+       height: 80px;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul li{
+        margin: 0 23px;
+        list-style: none;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.4rem;
+    }
+
+    nav ul li a:hover {
+       color: rgb(153,153,226);
+       font-size: 1.6rem;
+    }
+    .left{
+        font-size: 1.5rem;
+    }
+
+   .firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+
+   }
+
+   .firstsection > div{
+        width: 30%;
+   }
+
+   .left-section{
+    font-size: 3rem;
+    margin: 70px 0;
+   }
+
+    .left-section .buttons{
+        padding: 50px 0;
+    }
+   .left-section .btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+   }
+
+   .left-section .btn a{
+    color: white;
+    text-decoration: none;
+   }
+  
+
+   .purple{
+    color: rgb(170,107,228);
+   }
+
+   .text-gray{
+    color: gray;
+   }
+
+   .right-section img{
+        width: 100%; 
+   }
+
+   #element{
+    color: rgb(170,107,228);
+   }
+   .secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+   }
+
+   .secondsection h1{
+    font-size: 1.7rem;
+   }
+
+   .secondsection .box{
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+   }
+
+   .secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+   }
+
+   .image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+   }
+
+   .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+   }
+
+   .vertical-desc{
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+   }
+
+  
+
+
+   main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 30px 84px;
+   }
+
+
+footer{
+    background-color:#0e0e1a;
+}
+
+
+.footer{
+    display: flex;
+    padding: 23px 122px ;
+    justify-content: space-evenly;
+}
+
+
+.footer ul{
+    list-style: none;
+}
+
+
+.footer > div{
+    width: 200px;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><h2>Razik's Portfolio</h2></div>
+                <div class="right">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="service.html">Service</a></li>
+                        <li><a href="project.html">Project</a></li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="left-section">
+                Hi, My name is <span class="purple">Razik</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            
+                <div class="buttons">
+                <button class="btn"><a  href="https://photos.app.goo.gl/8cConXkipFxny34HA">Downloaad Resume</a></button>
+                <button class="btn"><a  href="https://github.com/">Visit Github</a></button>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="https://www.genesecloud.academy/wp-content/uploads/2021/06/Programming-amico-1280x1280.png">
+            </div>
+      </section>
+
+      <hr>
+
+      <section class="secondsection">
+    <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+            <div class="vertical">
+                <img  class="image-top" src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_logo.png">
+                <div class="vertical-title">
+                    HTML Developer (2010-2012)
+                </div>
+                <div class="vertical-desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam, alias qui laudantium possimus ut, placeat architecto sunt cupiditate soluta accusantium recusandae neque voluptate perferendis, distinctio consequuntur fugiat aut non!
+                </div>
+            </div>
+            <div class="vertical">
+                <img  class="image-top" src="https://th.bing.com/th/id/OIP.9djmrs-yL4C_zJLcVOBWyQAAAA?rs=1&pid=ImgDetMain">
+                <div class="vertical-title">
+                    Node js Developer (2012-2014)
+                </div>
+                <div class="vertical-desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam, alias qui laudantium possimus ut, placeat architecto sunt cupiditate soluta accusantium recusandae neque voluptate perferendis, distinctio consequuntur fugiat aut non!
+                </div>
+            </div>
+            <div class="vertical">
+                <img  class="image-top" src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png">
+                <div class="vertical-title">
+                CSS Developer(2014-2016)
+                </div>
+                <div class="vertical-desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam, alias qui laudantium possimus ut, placeat architecto sunt cupiditate soluta accusantium recusandae neque voluptate perferendis, distinctio consequuntur fugiat aut non!
+                </div>
+            </div>
+            <div class="vertical">
+                <img  class="image-top" src="https://oneteamsolutions.in/blogoneteam/wp-content/uploads/2020/05/REACT-JS-KOCHI.png">
+                <div class="vertical-title">
+                    React js Developer (2016-2018)
+                </div>
+                <div class="vertical-desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam, alias qui laudantium possimus ut, placeat architecto sunt cupiditate soluta accusantium recusandae neque voluptate perferendis, distinctio consequuntur fugiat aut non!
+                </div>
+            </div>
+            <div class="vertical">
+                <img  class="image-top" src="https://www.itcolombia.com/wp-content/uploads/2020/09/Python-logo-%C2%BF.png">
+                <div class="vertical-title">
+                    Python Developer (2018-2020)
+                </div>
+                <div class="vertical-desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam, alias qui laudantium possimus ut, placeat architecto sunt cupiditate soluta accusantium recusandae neque voluptate perferendis, distinctio consequuntur fugiat aut non!
+                </div>
+            </div>
+            <div class="vertical">
+                <img  class="image-top" src="https://www.freeiconspng.com/uploads/c--logo-icon-0.png">
+                <div class="vertical-title">
+                    C++ Developer (2020-2022)
+                </div>
+                <div class="vertical-desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam, alias qui laudantium possimus ut, placeat architecto sunt cupiditate soluta accusantium recusandae neque voluptate perferendis, distinctio consequuntur fugiat aut non!
+                </div>
+            </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Razik's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; razikportfolio.com | All rights reserverd
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
